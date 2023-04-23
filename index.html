@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jomar Mata</title>
+    <link href="images/logo.png" rel="icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><a href="#">HME</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#Skills">SKILLS</a></li>
+                <li><a href="#Portfolio">PORTFOLIO</a></li>
+                <li><a href="#Gallery">GALLERY</a></li>
+                <li><a href="#Contact">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="detel">
+            <h1>Hi! i'm Jomar Mata -<span> <br> Web & Desktop Application <br> Developer</span></h1>
+            <p>Seeking a role as a desktop developer to leverage my programming
+              skills and passion for creating user-friendly, high-performing applications.
+              Looking for a company that values innovation, collaboration, and professional growth, 
+              and offers opportunities to work on challenging projects with cutting-edge technologies. </p>
+            <a href="images/Internship - Resume A (Jomar Mata).pdf" class ="btn">Download CV</a>
+
+            <button onclick="topFunction()" id="myBtn" title="Go to top"><i class=" fas fa-chevron-up"></i></button> <!-- back to top button-->
+
+
+        </div>
+        <div class="images">
+            <img src="images/shape.png" class="shape">
+            <img src="images/jomar.png" class="girl">
+        </div>
+
+        
+
+        <div class="social">
+           <a href="#"><i class="fab fa-facebook"></i></a>
+           <a href="#"><i class="fab fa-instagram"></i></a>
+           <a href="#"><i class="fab fa-linkedin"></i></a>
+           <a href="#"><i class="fab fa-telegram"></i></a>
+           <a href="#" class="to-top"><i class="fa-solid fa-chevron-up"></i></a>
+        </div>
+        <section class ="About" id= "About">
+          <h2>ABOUT</h2>
+          <div class ="about-content" >
+            <h3 class="h1">ABOUT ME</h3>
+            <h3 class ="h2">BASIC INFORMATION</h3>
+            <p>Seeking a role as a desktop developer to leverage my programming
+                skills and passion for creating user-friendly, high-performing applications.
+                Looking for a company that values innovation, collaboration, and professional growth, 
+                and offers opportunities to work on challenging projects with cutting-edge technologies.<br>
+               
+                <br>Seeking a role as a desktop developer to leverage my programming
+                skills and passion for creating user-friendly, high-performing applications
+                Looking for a company that values innovation, collaboration, and professional growth, 
+                and offers opportunities to work on challenging projects with cutting-edge technologies.<br>
+
+                <br>Seeking a role as a desktop developer to leverage my programming
+                skills and passion for creating user-friendly, high-performing applications.
+                Looking for a company that values innovation, collaboration, and professional growth, 
+                and offers opportunities to work on challenging projects with cutting-edge technologies. </p>
+          </div>
+        </section>
+        <section class ="Skills" id= "Skills"></section>
+        <section class ="Portfolio" id= "Portfolio"></section>
+        <section class ="Gallery" id= "Gallery"></section>
+        <section class ="Contact" id= "Contact"></section>
+        
+    </div>
+   <script src="https://kit.fontawesome.com/d1a312ca62.js" crossorigin="anonymous"></script>
+    <script>
+       const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 100){
+        toTop.classList.add("active");
+        
+    }else{
+        toTop.classList.remove("active");
+    }
+})
+      </script>
+
+<script src="back2top.js"></script>    
+</body>
+</html>
